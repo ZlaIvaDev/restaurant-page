@@ -3,6 +3,7 @@
 import path from "node:path";
 import HtmlWebpackPlugin from "html-webpack-plugin";
 import { watchFile } from "node:fs";
+import { type } from "node:os";
 
 
 export default {
@@ -33,8 +34,8 @@ export default {
                 use: ["html-loader"],
             },
             {
-                test: /\.(png|svg|jpg|jpeg|gif)$/i,
-                use: "asset/resource",
+                test: /\.(png|svg|jpg|jpeg|gif|avif)$/i,
+                type: "asset/resource",
             },
         ],
     },
