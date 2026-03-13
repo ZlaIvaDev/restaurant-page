@@ -140,7 +140,7 @@ Red: rgba(239, 65, 53, 1) (commonly cited) or rgba(206, 20, 43, 1) (based on #CF
     margin: 0 7rem;
     line-height: 1.5;
     text-align:justify;
-}
+}/* PROBABLY CAN DELETE THIS*/
 
 
 header {
@@ -158,5 +158,57 @@ header {
     padding-top: 8rem;  
 }
 
+/* MENU PAGE STYLES */
 
+.menu-img {
+    width: 12.5rem;
+    height: auto;
+}
+.price, h3 {
+    font-family: "Dancing Script", cursive;
+}
 
+.item {
+    display: flex;
+    margin: 2rem;
+    justify-content: center;
+}
+.flexmenuitem {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 20rem;
+    padding: 0 2rem;
+
+    padding: 1rem;
+    margin: 0 7rem;
+    line-height: 1.5;
+    text-align:justify;
+}
+
+/* about button*/
+.aboutimg {
+    width: 20rem;
+    height: auto;
+}
+.paraAbove, .paraBelow {
+    padding: 1rem;
+    margin: 0 7rem;
+    line-height: 1.5;
+    text-align:justify;
+
+}
+/*  PROBABLY ONLY GONNA USE THIS FOR <P> ELEMENTS !
+p {
+    padding: 1rem;
+    margin: 0 7rem;
+    line-height: 1.5;
+    text-align:justify;
+}
+*/
+/* BLOG BUTTON */
+
+.blogimg {
+    width: 45rem;
+    height: auto;
+}
